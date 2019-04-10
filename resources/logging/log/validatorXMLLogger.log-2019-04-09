@@ -1,0 +1,2 @@
+2019-04-09 15:44:00 ERROR validatorXMLLogger:43 - validation C:\Users\User\IdeaProjects\Task06\src\main\resources\railwayStation.xml is not valid because cvc-complex-type.2.4.a: Invalid content was found starting with element 'hopper'. One of '{"http://www.example.com/railwayStation":passenger}' is expected.
+2019-04-09 15:48:27 INFO  validatorXMLLogger:40 - C:\Users\User\IdeaProjects\Task06\src\main\resources\railwayStation.xml is valid.

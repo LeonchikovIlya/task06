@@ -1,0 +1,68 @@
+2019-04-10 10:54:20 DEBUG StAXLogger:64 - Read line with such string :railwayStation
+2019-04-10 10:54:20 DEBUG StAXLogger:64 - Read line with such string :passenger
+2019-04-10 10:54:20 DEBUG StAXLogger:69 - Train имя='Train606', максимальная скорость=250, количество вагонов=40, тип поезда=PASSENGER, количество пассажиров=20 was added to railwayStation
+2019-04-10 10:54:20 DEBUG StAXLogger:64 - Read line with such string :hopper
+2019-04-10 10:54:20 DEBUG StAXLogger:69 - Train имя='TrainHopper', максимальная скорость=100, количество вагонов=100, тип поезда=HOPPER, количество груза : 55, тип перевозимого материала=LOOSE was added to railwayStation
+2019-04-10 10:54:20 DEBUG StAXLogger:64 - Read line with such string :freight
+2019-04-10 10:54:20 DEBUG StAXLogger:69 - Train имя='FreightTrain', максимальная скорость=125, количество вагонов=10, тип поезда=FREIGHT, количество груза : 20 was added to railwayStation
+2019-04-10 11:05:50 DEBUG StAXLogger:64 - Read line with such string :railwayStation
+2019-04-10 11:05:50 DEBUG StAXLogger:64 - Read line with such string :passenger
+2019-04-10 11:05:50 DEBUG StAXLogger:69 - Train имя='Train606', максимальная скорость=250, количество вагонов=40, тип поезда=PASSENGER, количество пассажиров=20 was added to railwayStation
+2019-04-10 11:05:50 DEBUG StAXLogger:64 - Read line with such string :hopper
+2019-04-10 11:05:50 DEBUG StAXLogger:69 - Train имя='TrainHopper', максимальная скорость=100, количество вагонов=100, тип поезда=HOPPER, количество груза : 55, тип перевозимого материала=LOOSE was added to railwayStation
+2019-04-10 11:05:50 DEBUG StAXLogger:64 - Read line with such string :freight
+2019-04-10 11:05:50 DEBUG StAXLogger:69 - Train имя='FreightTrain', максимальная скорость=125, количество вагонов=10, тип поезда=FREIGHT, количество груза : 20 was added to railwayStation
+2019-04-10 11:15:12 DEBUG StAXLogger:64 - Read line with such string :railwayStation
+2019-04-10 11:15:12 DEBUG StAXLogger:64 - Read line with such string :passenger
+2019-04-10 11:15:12 DEBUG StAXLogger:69 - Train имя='Train606', максимальная скорость=250, количество вагонов=40, тип поезда=PASSENGER, количество пассажиров=20 was added to railwayStation
+2019-04-10 11:15:12 DEBUG StAXLogger:64 - Read line with such string :hopper
+2019-04-10 11:15:12 DEBUG StAXLogger:69 - Train имя='TrainHopper', максимальная скорость=100, количество вагонов=100, тип поезда=HOPPER, количество груза : 55, тип перевозимого материала=LOOSE was added to railwayStation
+2019-04-10 11:15:12 DEBUG StAXLogger:64 - Read line with such string :freight
+2019-04-10 11:15:12 DEBUG StAXLogger:69 - Train имя='FreightTrain', максимальная скорость=125, количество вагонов=10, тип поезда=FREIGHT, количество груза : 20 was added to railwayStation
+2019-04-10 11:25:03 DEBUG StAXLogger:64 - Read line with such string :railwayStation
+2019-04-10 11:25:03 DEBUG StAXLogger:64 - Read line with such string :passenger
+2019-04-10 11:25:03 DEBUG StAXLogger:69 - Train имя='Train606', максимальная скорость=250, количество вагонов=40, тип поезда=PASSENGER, количество пассажиров=20 was added to railwayStation
+2019-04-10 11:25:03 DEBUG StAXLogger:64 - Read line with such string :hopper
+2019-04-10 11:25:03 DEBUG StAXLogger:69 - Train имя='TrainHopper', максимальная скорость=100, количество вагонов=100, тип поезда=HOPPER, количество груза : 55, тип перевозимого материала=LOOSE was added to railwayStation
+2019-04-10 11:25:03 DEBUG StAXLogger:64 - Read line with such string :freight
+2019-04-10 11:25:03 DEBUG StAXLogger:69 - Train имя='FreightTrain', максимальная скорость=125, количество вагонов=10, тип поезда=FREIGHT, количество груза : 20 was added to railwayStation
+2019-04-10 11:28:51 DEBUG StAXLogger:64 - Read line with such string :railwayStation
+2019-04-10 11:28:51 DEBUG StAXLogger:64 - Read line with such string :passenger
+2019-04-10 11:28:51 DEBUG StAXLogger:69 - Train имя='Train606', максимальная скорость=250, количество вагонов=40, тип поезда=PASSENGER, количество пассажиров=20 was added to railwayStation
+2019-04-10 11:28:51 DEBUG StAXLogger:64 - Read line with such string :hopper
+2019-04-10 11:28:51 DEBUG StAXLogger:69 - Train имя='TrainHopper', максимальная скорость=100, количество вагонов=100, тип поезда=HOPPER, количество груза : 55, тип перевозимого материала=LOOSE was added to railwayStation
+2019-04-10 11:28:51 DEBUG StAXLogger:64 - Read line with such string :freight
+2019-04-10 11:28:51 DEBUG StAXLogger:69 - Train имя='FreightTrain', максимальная скорость=125, количество вагонов=10, тип поезда=FREIGHT, количество груза : 20 was added to railwayStation
+2019-04-10 11:28:51 DEBUG StAXLogger:64 - Read line with such string :highSpeed
+2019-04-10 11:28:51 DEBUG StAXLogger:69 - Train имя='HighSpeedTrain1', максимальная скорость=220, количество вагонов=3, тип поезда=HIGHSPEED, количество пассажиров=20, тип вагона=COMMON was added to railwayStation
+2019-04-10 11:35:56 DEBUG StAXLogger:64 - Read line with such string :railwayStation
+2019-04-10 11:35:56 DEBUG StAXLogger:64 - Read line with such string :passenger
+2019-04-10 11:35:56 DEBUG StAXLogger:69 - Train имя='Train606', максимальная скорость=250, количество вагонов=40, тип поезда=PASSENGER, количество пассажиров=20 was added to railwayStation
+2019-04-10 11:35:56 DEBUG StAXLogger:64 - Read line with such string :hopper
+2019-04-10 11:35:56 DEBUG StAXLogger:69 - Train имя='TrainHopper', максимальная скорость=100, количество вагонов=100, тип поезда=HOPPER, количество груза : 55, тип перевозимого материала=LOOSE was added to railwayStation
+2019-04-10 11:35:56 DEBUG StAXLogger:64 - Read line with such string :freight
+2019-04-10 11:35:56 DEBUG StAXLogger:69 - Train имя='FreightTrain', максимальная скорость=125, количество вагонов=10, тип поезда=FREIGHT, количество груза : 20 was added to railwayStation
+2019-04-10 11:35:56 DEBUG StAXLogger:64 - Read line with such string :highSpeed
+2019-04-10 11:35:56 DEBUG StAXLogger:69 - Train имя='HighSpeedTrain1', максимальная скорость=220, количество вагонов=3, тип поезда=HIGHSPEED, количество пассажиров=20, тип вагона=COMMON was added to railwayStation
+2019-04-10 11:35:56 DEBUG StAXLogger:64 - Read line with such string :hopper
+2019-04-10 11:35:56 DEBUG StAXLogger:69 - Train имя='TrainHopper', максимальная скорость=100, количество вагонов=100, тип поезда=HOPPER, количество груза : 55, тип перевозимого материала=LOOSE was added to railwayStation
+2019-04-10 11:37:13 DEBUG StAXLogger:64 - Read line with such string :railwayStation
+2019-04-10 11:37:13 DEBUG StAXLogger:64 - Read line with such string :passenger
+2019-04-10 11:37:13 DEBUG StAXLogger:69 - Train имя='Train606', максимальная скорость=250, количество вагонов=40, тип поезда=PASSENGER, количество пассажиров=20 was added to railwayStation
+2019-04-10 11:37:13 DEBUG StAXLogger:64 - Read line with such string :hopper
+2019-04-10 11:37:13 DEBUG StAXLogger:69 - Train имя='TrainHopper', максимальная скорость=100, количество вагонов=100, тип поезда=HOPPER, количество груза : 55, тип перевозимого материала=LOOSE was added to railwayStation
+2019-04-10 11:37:13 DEBUG StAXLogger:64 - Read line with such string :freight
+2019-04-10 11:37:13 DEBUG StAXLogger:69 - Train имя='FreightTrain', максимальная скорость=125, количество вагонов=10, тип поезда=FREIGHT, количество груза : 20 was added to railwayStation
+2019-04-10 11:37:13 DEBUG StAXLogger:64 - Read line with such string :highSpeed
+2019-04-10 11:37:13 DEBUG StAXLogger:69 - Train имя='HighSpeedTrain2', максимальная скорость=220, количество вагонов=10, тип поезда=HIGHSPEED, количество пассажиров=66, тип вагона=FIRST_CLASS was added to railwayStation
+2019-04-10 12:00:29 ERROR StAXLogger:76 - File "C:\Users\User\IdeaProjects\Task06\src\main\resources\railwayStation.xml" not found! java.io.FileNotFoundException: "C:\Users\User\IdeaProjects\Task06\src\main\resources\railwayStation.xml" (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+2019-04-10 12:01:35 ERROR StAXLogger:76 - File "C:\Users\User\IdeaProjects\Task06\src\main\resources\railwayStation.xml" not found! java.io.FileNotFoundException: "C:\Users\User\IdeaProjects\Task06\src\main\resources\railwayStation.xml" (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+2019-04-10 12:03:02 DEBUG StAXLogger:64 - Read line with such string :railwayStation
+2019-04-10 12:03:02 DEBUG StAXLogger:64 - Read line with such string :passenger
+2019-04-10 12:03:02 DEBUG StAXLogger:69 - Train имя='Train606', максимальная скорость=250, количество вагонов=40, тип поезда=PASSENGER, количество пассажиров=20 was added to railwayStation
+2019-04-10 12:03:02 DEBUG StAXLogger:64 - Read line with such string :hopper
+2019-04-10 12:03:02 DEBUG StAXLogger:69 - Train имя='TrainHopper', максимальная скорость=100, количество вагонов=100, тип поезда=HOPPER, количество груза : 55, тип перевозимого материала=LOOSE was added to railwayStation
+2019-04-10 12:03:02 DEBUG StAXLogger:64 - Read line with such string :freight
+2019-04-10 12:03:02 DEBUG StAXLogger:69 - Train имя='FreightTrain', максимальная скорость=125, количество вагонов=10, тип поезда=FREIGHT, количество груза : 20 was added to railwayStation
+2019-04-10 12:03:02 DEBUG StAXLogger:64 - Read line with such string :highSpeed
+2019-04-10 12:03:02 DEBUG StAXLogger:69 - Train имя='HighSpeedTrain2', максимальная скорость=220, количество вагонов=10, тип поезда=HIGHSPEED, количество пассажиров=66, тип вагона=FIRST_CLASS was added to railwayStation

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/railwayStation"
+        xmlns:tns="http://www.example.com/railwayStation"
+        elementFormDefault="qualified">
+
+<element name="railwayStation">
+    <complexType>
+        <sequence>
+            <element ref="tns:train" minOccurs="0" maxOccurs="unbounded"/>
+        </sequence>
+    </complexType>
+</element>
+
+    <element name="train" type="tns:Train" abstract="true" />
+    <element name="passenger" type="tns:Passenger" substitutionGroup="tns:train" />
+    <element name="freight" type="tns:Freight" substitutionGroup="tns:train" />
+    <element name="highSpeed" type="tns:HighSpeed" substitutionGroup="tns:passenger" />
+    <element name="hopper" type="tns:Hopper" substitutionGroup="tns:freight" />
+
+    <complexType name="Train">
+        <sequence>
+            <element name="name" type="string"/>
+            <element name="maxSpeed">
+                <simpleType>
+                    <restriction base="positiveInteger">
+                        <maxInclusive value="300"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="wagonNumber" type="positiveInteger"/>
+            <element name="trainType" type="tns:TrainType"/>
+        </sequence>
+    </complexType>
+
+    <complexType name="Passenger">
+        <complexContent>
+            <extension base = "tns:Train">
+                <sequence>
+                    <element name="passengerValue" type="positiveInteger"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Freight">
+        <complexContent>
+            <extension base = "tns:Train">
+                <sequence>
+                    <element name="freightValue" type="positiveInteger"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="HighSpeed">
+        <complexContent>
+            <extension base = "tns:Passenger">
+                <sequence>
+                    <element name="wagonType" type="tns:WagonType"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Hopper">
+        <complexContent>
+            <extension base = "tns:Freight">
+                <sequence>
+                    <element name="material" type="tns:Material"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <simpleType name="TrainType">
+        <restriction base="string">
+            <enumeration value="PASSENGER" />
+            <enumeration value="HIGHSPEED" />
+            <enumeration value="FREIGHT" />
+            <enumeration value="HOPPER" />
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Material">
+        <restriction base="string">
+            <enumeration value="SINGLE_PEACE" />
+            <enumeration value="LOOSE" />
+            <enumeration value="UNKNOWN" />
+        </restriction>
+    </simpleType>
+
+    <simpleType name="WagonType">
+        <restriction base="string">
+            <enumeration value="COMMON" />
+            <enumeration value="SECOND_CLASS" />
+            <enumeration value="FIRST_CLASS" />
+            <enumeration value="UNKNOWN" />
+        </restriction>
+    </simpleType>
+
+</schema>

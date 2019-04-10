@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<railwayStation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.example.com/railwayStation"
+       xsi:schemaLocation="http://example.com/railwayStation ">
+
+    <passenger>
+        <name>Train606</name>
+        <maxSpeed>250</maxSpeed>
+        <wagonNumber>40</wagonNumber>
+        <trainType>PASSENGER</trainType>
+        <passengerValue>20</passengerValue>
+    </passenger>
+
+    <hopper>
+        <name>TrainHopper</name>
+        <maxSpeed>100</maxSpeed>
+        <wagonNumber>100</wagonNumber>
+        <trainType>HOPPER</trainType>
+        <freightValue>55</freightValue>
+        <material>LOOSE</material>
+    </hopper>
+
+    <freight>
+        <name>FreightTrain</name>
+        <maxSpeed>125</maxSpeed>
+        <wagonNumber>10</wagonNumber>
+        <trainType>FREIGHT</trainType>
+        <freightValue>20</freightValue>
+    </freight>
+
+    <highSpeed>
+        <name>HighSpeedTrain2</name>
+        <maxSpeed>220</maxSpeed>
+        <wagonNumber>10</wagonNumber>
+        <trainType>HIGHSPEED</trainType>
+        <passengerValue>66</passengerValue>
+        <wagonType>FIRST_CLASS</wagonType>
+    </highSpeed>
+
+</railwayStation>

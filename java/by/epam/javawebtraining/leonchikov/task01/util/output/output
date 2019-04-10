@@ -1,0 +1,88 @@
+1234123412341234123412341234123412341234The result set has one row for each element of the SQL array designated by this object, with the first row containing the element at index
+
+ResultSet getResultSet(long index,
+                     int count,
+                     Map<String,Class<?>> map)
+                       throws SQLException
+
+The result set has up to count rows in ascending order based on the indicesThis object is badEach row has two columns: The second column stores the element value; the first column stroes the index into the array for that element
+Hello world
+
+class Variables {
+
+public static void main (String args []) {
+double a = 3;
+double b = 4;
+double c;
+с = Math.sqrt (a* a + b* b);
+System.out.println ("c = "+ c);
+        }
+    }
+
+public static <T extends Comparable<T>> int firstIndexOf(List<T> array, T x){
+       return binarySearch(array,x);
+    }
+
+public static <T extends Comparable<T>> int lastIndexOf(List<T> array, T x){
+        int l = 0;
+        int r = array.size()-1;
+        while(r-l>1){
+            int med = l+(r-l)/2;
+            if(array.get(med).compareTo(x)<1){
+                r = med;
+            }
+        }
+        for(int i=r;i>=l;i--){
+            if(array.get(i).equals(x)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+Building from a culture of innovation, pride, integrity, passion, respect, and inclusion, Oracle fosters a flexible, dynamic, and diverse work environment where teamwork and collaboration are keys to our success
+See what employees have to say about life at Oracle, professionally and personally
+The result set has one row for each element of the SQL array designated by this object, with the first row containing the element at index
+
+ResultSet getResultSet(long index,
+                     int count,
+                     Map<String,Class<?>> map)
+                       throws SQLException
+
+The result set has up to count rows in ascending order based on the indicesThis object is badEach row has two columns: The second column stores the element value; the first column stroes the index into the array for that element
+Hello world
+
+class Variables {
+
+public static void main (String args []) {
+double a = 3;
+double b = 4;
+double c;
+с = Math.sqrt (a* a + b* b);
+System.out.println ("c = "+ c);
+        }
+    }
+
+public static <T extends Comparable<T>> int firstIndexOf(List<T> array, T x){
+       return binarySearch(array,x);
+    }
+
+public static <T extends Comparable<T>> int lastIndexOf(List<T> array, T x){
+        int l = 0;
+        int r = array.size()-1;
+        while(r-l>1){
+            int med = l+(r-l)/2;
+            if(array.get(med).compareTo(x)<1){
+                r = med;
+            }
+        }
+        for(int i=r;i>=l;i--){
+            if(array.get(i).equals(x)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+Building from a culture of innovation, pride, integrity, passion, respect, and inclusion, Oracle fosters a flexible, dynamic, and diverse work environment where teamwork and collaboration are keys to our success
+See what employees have to say about life at Oracle, professionally and personally
